@@ -10,11 +10,15 @@ class Global extends Component{
     }
   }
   search(){
-    console.log('sarch', this.state.query);
+    const BASE_URL = 'https://www.googleapis.com/books/v1/volumes?q=';
+    fetch(`${BASE_URL}${this.state.query}`, {method: 'GET'} )
+    .then(response => response.json())
+    .then(json => console.log(json));
+    //console.log('sarch', this.state.query);
   }
   render() {
     return (
-      <div>
+      <div className="Global">
         <h2>Google Book Store  Center</h2>
         <FormGroup>
           <InputGroup>

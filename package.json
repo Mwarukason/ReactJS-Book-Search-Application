@@ -34,10 +34,17 @@
     "babel-preset-es2016": "^6.24.1",
     "babel-preset-es2017": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "react": "^15.5.4",
+    "react": "^15.6.0",
     "react-bootstrap": "^0.31.0",
-    "react-dom": "^15.5.4",
+    "react-dom": "^15.6.0",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "react-addons-css-transition-group": "^15.5.2",
+    "react-addons-transition-group": "^15.5.2",
+    "react-transition-group": "^1.2.0",
+    "reactstrap": "^4.6.2"
   }
 }

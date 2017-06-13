@@ -16,7 +16,7 @@ module.exports = {
 
   /*webpack use*/
   devServer:{
-    port:8000,
+    port:3000,
     contentBase: './build',
     inline:true /*allows to run automatic web updates*/
   }

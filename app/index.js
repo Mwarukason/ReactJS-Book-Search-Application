@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Global from './components/Global.js';
+import Global from './components/Global';
+
 
 
 ReactDOM.render(

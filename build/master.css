@@ -1,4 +1,4 @@
-.Global{
+.Global {
   text-align: center;
   padding: 10px;
   color: white;
@@ -10,5 +10,39 @@
       radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
       background-color:#282828;
       background-size:16px 16px;
-    }
+}
+
+.head{
+  font-size: 30px;
+  font-family: "Nosifer Caps";
+}
+.book {
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+
+.book-image {
+  width: 220px;
+  height: 220px;
+  border: 4px solid gray;
+  border-radius: 4px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.book-text {
+  background-color: #000;
+  color: #fff;
+  opacity: 0.75;
+  width: 214px;
+  margin-left: 3px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
 }
